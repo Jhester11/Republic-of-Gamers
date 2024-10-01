@@ -1,0 +1,12 @@
+.bg-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-image img {
+    transition: transform 0.5s ease;
+}
+
+.bg-image:hover img {
+    transform: scale(1.1);
+}
